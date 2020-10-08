@@ -1,9 +1,9 @@
 import numpy as np
 import pickle
 
-glove_mat = np.load("./data/glove_mat.npy")
-# words = np.load("./data/words.npy")
-with open("./data/word_to_ind.pkl", "rb") as f:
+glove_mat = np.load("./data/glove_6B_50d.npy")
+# words = np.load("./data/words_6B_50d.npy")
+with open("./data/word_to_ind_6B_50d.pkl", "rb") as f:
     word_to_ind = pickle.load(f)
 
 given_f, given_s, ques_f = "father", "mother", "brother"
