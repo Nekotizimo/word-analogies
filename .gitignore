@@ -3,6 +3,8 @@
 **/data
 .DS_Store
 .vscode
+models
+wandb
 
 # ================== 
 
